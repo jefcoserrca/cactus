@@ -1,0 +1,15 @@
+.icon {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+}
+
+.icon-menu {
+    background: url('../svg/menu.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-close {
+    background: url('../svg/close.svg') no-repeat top left;
+    background-size: contain;
+}
