@@ -28,3 +28,30 @@
     left: 3rem;
     z-index: 0;
 }
+
+.card {
+    background: white;
+    height: 200px;
+    width: 538px;
+    border-top-right-radius: 116px;
+    border-bottom-right-radius: 116px;
+    position: fixed;
+    bottom: -40px;
+}
+
+.card__container {
+    display: flex;
+}
+
+.card__info {
+    padding-top: 0.5rem;
+}
+
+.card__info>h3 {
+    margin: 1rem;
+}
+
+.card__img {
+    width: 232px;
+    height: auto;
+}

@@ -1,2 +1,71 @@
 @primary_color:  rgb(23, 44, 64);
 @secundary_color: rgb(255, 255, 255);
+@third_color:rgb(36, 223, 229);
+
+.text-center{
+    text-align: center !important;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-12{
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+}
+
+.col-6{
+    margin: 0 auto;
+    float: left;
+    width: 50%;
+}
+
+.col-3{
+    margin: 0 auto;
+    float: left;
+    width: 33.33%;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mb-3{
+    margin-bottom: 0.5rem;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-3{
+    margin-top: 0.5rem;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-80{
+    width: 80%;
+}
+.btn-primary{
+    border-radius: 12px;
+    text-align: left;
+    border: none;
+    background: @third_color;
+    color: @secundary_color;
+}
+
+.card__info{
+    h3{
+        font-family: 'Dancing Script', sans-serif;
+    }
+
+    p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+}

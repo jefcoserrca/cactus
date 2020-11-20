@@ -1,5 +1,5 @@
 .header {
-    width: 100px;
+    width: 138px;
     padding: 1rem;
     background-color: rgb(23, 44, 64);
     height: 100vh;
@@ -9,7 +9,7 @@
 }
 
 .header--extend {
-    width: 350px;
+    width: 275px;
 }
 
 .header__container--button {
@@ -32,8 +32,40 @@
 .header__nav--extend {
     display: block;
     color: white;
+    margin-top: 2rem;
 }
 
-.header__nav--extend>li {
-    margin: 1.5rem;
+.header__text {
+    margin-top: 0;
+    color: #d7d7d7;
+    text-transform: uppercase;
+}
+
+.header__button--link {
+    cursor: pointer;
+}
+
+.header__button--link:hover {
+    background-color: #24425d;
+}
+
+.header__selector {
+    background: transparent;
+    border: solid 2px white;
+    color: white;
+    position: absolute;
+    right: 60%;
+    height: 32px;
+    width: 60px;
+}
+
+.header__logo {
+    width: 100%;
+    padding: 1rem;
+}
+
+.header__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -1,7 +1,6 @@
 @import './container.css';
 @import './header.css';
 @import './icons.css';
-@import './responsive.css';
 * {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -16,6 +15,8 @@ body {
 
 .txt-right {
     text-align: right !important;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .box-shadow {

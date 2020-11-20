@@ -4,6 +4,19 @@
     width: 28px;
 }
 
+.icon-btn {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.icon-small {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
 .icon-menu {
     background: url('../svg/menu.svg') no-repeat top left;
     background-size: contain;
@@ -11,5 +24,65 @@
 
 .icon-close {
     background: url('../svg/close.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-camara {
+    background: url('../svg/camara.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-tarjeta {
+    background: url('../svg/tarjeta.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-histograma {
+    background: url('../svg/histograma.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-ajustes {
+    background: url('../svg/ajustes.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-tripode {
+    background: url('../svg/tripode.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-temporizador {
+    background: url('../svg/temporizador.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-plano {
+    background: url('../svg/plano.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-enfocar {
+    background: url('../svg/enfocar.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-facebook {
+    background: url('../svg/facebook.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-twitter {
+    background: url('../svg/gorjeo.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-linkedin {
+    background: url('../svg/linkedin.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.icon-rss {
+    background: url('../svg/rss.svg') no-repeat top left;
     background-size: contain;
 }

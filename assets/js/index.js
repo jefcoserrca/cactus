@@ -8,6 +8,7 @@ $('#menu-btn').on('click', function() {
         $('#menu-btn span').removeClass('icon-close');
         $('#menu-btn span').addClass('icon-menu');
         $('.container__blur').addClass('hide');
+        $('#lenguaje-selector').addClass('hide');
     } else {
         $('header').addClass('header--extend');
         $('.header__container--button').addClass('txt-right');
@@ -16,7 +17,7 @@ $('#menu-btn').on('click', function() {
         $('#menu-btn span').removeClass('icon-menu');
         $('#menu-btn span').addClass('icon-close');
         $('.container__blur').addClass('hide');
-
+        $('#lenguaje-selector').removeClass('hide');
         $('.container__blur').removeClass('hide');
 
     }
